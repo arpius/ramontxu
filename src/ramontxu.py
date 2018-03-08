@@ -40,7 +40,7 @@ def location(bot, update):
 
 
 def main():
-    updater = Updater('YOUR-TOKEN')
+    updater = Updater('YOUR_TOKEN')
     dispatcher = updater.dispatcher
 
     start_handler = CommandHandler('start', start)
